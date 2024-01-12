@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulation", "Simulation\Simulation.vcxproj", "{FFEB1952-320C-4747-9DDE-6143E59440F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shaders", "_Shaders", "{118B5199-F3B8-4672-ACA7-3B4CD4220E77}"
+	ProjectSection(SolutionItems) = preProject
+		_Shaders\00_Billboard.fx = _Shaders\00_Billboard.fx
+		_Shaders\00_Constant.fx = _Shaders\00_Constant.fx
+		_Shaders\00_Deffered.fx = _Shaders\00_Deffered.fx
+		_Shaders\00_Global.fx = _Shaders\00_Global.fx
+		_Shaders\00_Global_sim.fx = _Shaders\00_Global_sim.fx
+		_Shaders\00_Light.fx = _Shaders\00_Light.fx
+		_Shaders\00_Render.fx = _Shaders\00_Render.fx
+		_Shaders\00_SPHMethod.fx = _Shaders\00_SPHMethod.fx
+		_Shaders\20_DebugLine.fx = _Shaders\20_DebugLine.fx
+		_Shaders\60_RawBuffer.fx = _Shaders\60_RawBuffer.fx
+		_Shaders\62_TextureBuffer.fx = _Shaders\62_TextureBuffer.fx
+		_Shaders\countingSort.fx = _Shaders\countingSort.fx
+		_Shaders\countingSort_Boundary.fx = _Shaders\countingSort_Boundary.fx
+		_Shaders\debugRenderer.fx = _Shaders\debugRenderer.fx
+		_Shaders\particleRenderer.fx = _Shaders\particleRenderer.fx
+		_Shaders\SEPSPHSimulationSystem.fx = _Shaders\SEPSPHSimulationSystem.fx
+		_Shaders\simulation.fx = _Shaders\simulation.fx
+		_Shaders\TestShader.fx = _Shaders\TestShader.fx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Debug|x64.ActiveCfg = Debug|x64
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Debug|x64.Build.0 = Debug|x64
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Debug|x86.Build.0 = Debug|Win32
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Release|x64.ActiveCfg = Release|x64
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Release|x64.Build.0 = Release|x64
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Release|x86.ActiveCfg = Release|Win32
+		{FFEB1952-320C-4747-9DDE-6143E59440F1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED9D737D-80B9-4F81-AD4D-9303850CA692}
+	EndGlobalSection
+EndGlobal

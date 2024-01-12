@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="SimulationDemo.h" />
+    <ClInclude Include="Framework.h" />
+    <ClInclude Include="Meshes\IMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Mesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshCube.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshCylinder.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshGrid.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshHemiSphere.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshQuad.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshRender.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\MeshSphere.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Skeleton.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\DebugLine.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Lighting.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Material.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\PerFrame.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Render2D.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Renderer.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Texture.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Transform.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\VertexLayouts.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Buffers.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Context.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Gui.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\IExecute.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Keyboard.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Mouse.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Time.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Window.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\D3D.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\AssertMessage.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Freedom.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Orthographic.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Perspective.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Projection.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\RenderTarget.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Spin.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Viewport.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Camera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\DepthStencil.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Fixity.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Simulator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SPHcommon.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SimulationSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\RenderingSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ParticleRenderer.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\DebugRenderer.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Data\SpatialHash.h">
+      <Filter>Physics\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Data\FluidResourceManager.h">
+      <Filter>Physics\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationGPUDemo.h" />
+    <ClInclude Include="SimulationISPHDemo.h" />
+    <ClInclude Include="Physics\ISPH\DFSPHFluid.h">
+      <Filter>Physics\ISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationDemoThread.h" />
+    <ClInclude Include="Physics\ISPH\SESPHFluidThread.h">
+      <Filter>Physics\ISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ISPH\SESPHFluidGpu.h">
+      <Filter>Physics\ISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ISPH\SESPHFluid.h">
+      <Filter>Physics\ISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.h" />
+    <ClInclude Include="Systems\GPUTime.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimulationDemo.cpp" />
+    <ClCompile Include="Framework.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Meshes\IMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Mesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshCube.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshCylinder.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshGrid.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshHemiSphere.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshQuad.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshRender.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\MeshSphere.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Skeleton.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Lighting.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Material.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\PerFrame.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Render2D.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Renderer.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Texture.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Transform.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Buffers.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Context.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\DebugLine.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Keyboard.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Mouse.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Time.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Window.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\D3D.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\AssertMessage.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Freedom.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Orthographic.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Perspective.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Projection.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\RenderTarget.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Spin.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Viewport.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Camera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\DepthStencil.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Fixity.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Simulator.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\SimulationSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\RenderingSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ParticleRenderer.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\DebugRenderer.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\SPHcommon.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Data\SpatialHash.cpp">
+      <Filter>Physics\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Data\FluidResourceManager.cpp">
+      <Filter>Physics\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationGPUDemo.cpp" />
+    <ClCompile Include="SimulationISPHDemo.cpp" />
+    <ClCompile Include="Physics\ISPH\DFSPHFluid.cpp">
+      <Filter>Physics\ISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationDemoThread.cpp" />
+    <ClCompile Include="Physics\ISPH\SESPHFluidThread.cpp">
+      <Filter>Physics\ISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ISPH\SESPHFluidGpu.cpp">
+      <Filter>Physics\ISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ISPH\SESPHFluid.cpp">
+      <Filter>Physics\ISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel.cpp" />
+    <ClCompile Include="Systems\GPUTime.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Gui.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{422934b2-98e5-4682-8896-e06de41c0ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{edc922e8-8761-450b-b6a9-eebc27876702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{7b45c66d-7407-40c2-b09c-454a9a59222e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{306f8bd9-83fb-4f00-8748-e25cdd606f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{b74e8227-4e01-40f0-9673-314615ef6863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{14868018-944d-4637-93e9-b6c2cdc4f4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\ISPH">
+      <UniqueIdentifier>{9de2b93a-e39b-4dff-968b-2b6ec2748eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Data">
+      <UniqueIdentifier>{ad053f1c-c309-4f5a-94d5-e1dd673868d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
